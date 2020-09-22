@@ -1,0 +1,144 @@
+/* Configurações do topo */
+
+/*Cor de fundo do menu*/
+.bg-topo{
+	background-color: #0F0451;
+}
+
+/*Cor e tamanho dos ícones de redes social*/
+.icones-nav{
+	font-size: 20px;
+	color: white;
+	line-height: 30px !important;
+	margin: 0 5px;
+}		    
+
+/*Botão com link (seja membro/apoiador/marque aula)*/
+.btn-experimental{
+	border: 2px solid #000;
+	background: yellow;
+	position: relative;
+	color: #0F0451;
+	z-index: 1;
+	border-radius: 30px;
+	height: 100%;
+}
+
+/*Cor de fonte e fundo do hover botão*/
+.btn-experimental:hover{
+	color: #fff;
+	background: #0F0451;
+	border-color: #fff;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Seção de Modalidades*/
+.card-borda{
+	padding: 0 0 40px 0;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #f1f1f1;
+}
+
+/*Seção Espaço*/
+
+
+/*Seção Treinos*/
+
+/*Seção Professores*/
+.headstyle{
+	background-color: #0F0451; 
+}
+
+.texto-cor{
+	color: yellow;
+}
+
+.texto-cor:hover{
+	color: #fff;
+}
+
+.bg-card{
+	background-color: #FBFBFB;
+}	
+
+/*Seção Contato*/
+
+/*Rodapé*/
+.bg-rodape2{
+	background-color: #0F0451;
+	color: #fff;
+}
+
+.bg-rodape2 h3{
+	font-size: 15px;
+}
+
+/*.btn-whats{
+	border: 1.3px solid #30bc66;
+    background: #30bc66;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    border-radius: 20px;
+}*/
+
+/*Configurações gerais*/
+.underline{
+	content: '';
+	border-top: 2px solid #0F0451;
+	width: 150px;
+	display: block;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+
+.sombra:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.1)
+}
+
+.secoes-titulos{
+	font-family: 'Roboto Condensed', cursive;
+	font-size: 40px;
+}			
+
+
+
+
+
+}
+
+h4{
+	font-family: 'Roboto Condensed', cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h5{
+	font-family: 'Roboto Condensed', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h6{
+	font-family: 'Roboto Condensed', cursive;
+	font-size: 20px;
+}

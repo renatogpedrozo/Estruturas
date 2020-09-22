@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Menus</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="css-bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+
+
+	<!-- Icones -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+	<!-- Fontes -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+	 <!-- Galeria de fotos -->
+ 	<link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+</head>
+
+<body>
+	<div class="container-fluid bg-topo">
+		<header class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a href="#" class="navbar-brand">
+					<img src="img/.jpg" height="50"class="d-inline-block align-top">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">
+					<span class="navbar-toggler-icon text-light"></span>
+				</button>
+				<div id="menu" class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto text-light">
+						<li class="nav-item">
+							<a href="#modalidades" class="nav-link text-light font-weight-bold scroll-page">aaaaaaaa</a>
+						</li>
+						<li class="nav-item">
+							<a href="#espaco" class="nav-link text-light font-weight-bold scroll-page">aaaaaa</a>
+						</li>
+						<li class="nav-item">
+							<a href="#treinos" class="nav-link text-light font-weight-bold scroll-page">aaaaaa</a>
+						</li>
+						<li class="nav-item">
+							<a href="#professores" class="nav-link text-light font-weight-bold scroll-page">aaaaaaaaa</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contato" class="nav-link text-light font-weight-bold scroll-page">aaaaaa</a>
+						</li>
+					</ul>
+				</div>
+				
+				<a href="https://wa.me/51995379099" class="btn col-10 col-lg-4 col-md-6 col-sm-4 btn-experimental mx-auto">aaaaaaaaaaaaa</a>
+				
+				<div class="col-4 col-md-2 text-right ml-auto">
+					<a href="https://www.facebook.com/SoulFitCT" title="# em Facebook">
+						<span class="icones-nav">
+						<i class="fab fa-facebook">
+						</i>
+						</span>
+					</a>
+					<a href="https://www.instagram.com/soulfitct" title="# em Instagram">
+						<span class="icones-nav">
+						<i class="fab fa-instagram">
+						</i>
+						</span>
+					</a>
+				</div>			
+			</nav>
+		</header>
+	</div>
+
+
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+<script>
+
+(function($){
+
+	var $doc = $('html,body');
+	$('.scroll-page').click(function(){
+		$doc.animate({
+			scrollTop: $($.attr(this,'href')).offset().top
+		},800);
+		return false;
+		});
+	})(jQuery);
+</script>
+
+
+<script>
+
+(function () {
+    var menu = document.getElementById('menu'); // colocar em cache
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 0) menu.classList.add('fixed-top'); // > 0 ou outro valor desejado
+        else menu.classList.remove('fixed-top');
+    });
+})();
+
+</script>
+
+
+
+</body>
+</html>
